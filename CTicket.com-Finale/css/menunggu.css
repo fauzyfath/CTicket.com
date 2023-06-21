@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Akira-Extended';
+    src: url(../font/Akira\ Expanded\ Demo.ttf);
+}
+
+* {
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../image/nathan-fertig-IW5Bm4rB9OA-unsplash.jpg');
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-family: Akira-Extended;
+}
+
+h1 {
+    margin-left: 70vh;
+}
+
+.waiting-section,
+.orders-section {
+
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 30px;
+}
+
+.orders-section .order-item {
+    backdrop-filter: blur(10px);
+}
+.waiting-section h2{
+    margin-left: 63vh;
+}
+
+.orders-section h2 {
+    text-align: center;
+}
+
+.order-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    position: relative;
+    clear: both;
+
+}
+.copyright {
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px 0px;
+    position: sticky;
+    bottom: 0;
+    
+}
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}

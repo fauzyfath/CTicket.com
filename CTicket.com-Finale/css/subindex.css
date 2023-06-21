@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Akira-Extended';
+    src: url(../font/Akira\ Expanded\ Demo.ttf);
+}
+/* navbar */
+.navbar-brand{
+    font-family: Akira-Extended;
+}
+
+/* main content */
+.p-3 img{
+    width: 750px;
+    height: 440px;
+    border-radius:  15px;
+}
+.p-3 h5{
+    font-size: 25px;
+}
+.p-3 h6{
+    font-size: 15px;
+}
+
+.p-3 a img{
+    width: 70px;
+    height: 70px;
+}
+
+/* footer */
+.copyright {
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}

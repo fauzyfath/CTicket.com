@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Akira-Extended';
+    src: url(../font/Akira\ Expanded\ Demo.ttf);
+}
+/* navbar */
+.navbar-brand{
+    font-family: Akira-Extended;
+}
+
+/* main content */
+.container table{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.container th,td{
+    padding-right: 10vh;
+    padding-top: 2vh;
+}
+
+.container input,select{
+    width: 50vh;
+    text-align: center;
+}
+
+.container .text-bg button{
+    width: 20vh;
+    color: black;
+    background-color: #fff;
+    margin-left: 40vh;
+}
+[name="pesan"]{
+    width: 20vh;
+    color: black;
+    background-color: #fff;
+    margin-left: 40vh;
+}
+
+/* banner text */
+.text-bg {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: absolute;
+    top: 25vh;
+    right: 5vh;
+}
+.text-bg h1 {
+    color: #a80505;
+    font-family: Akira-Extended;
+    font-size: 100px;
+}
+
+.text-bg h4 {
+    line-height: 5px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+/* footer */
+.copyright {
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}

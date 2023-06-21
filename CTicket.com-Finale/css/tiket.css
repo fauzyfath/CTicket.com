@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Akira-Extended';
+    src: url(../font/Akira\ Expanded\ Demo.ttf);
+}
+.navbar-brand{
+    font-family: Akira-Extended;
+}
+.banner-image{
+    background-image: url('../image/nathan-fertig-IW5Bm4rB9OA-unsplash.jpg');
+    background-size:cover ;
+}
+/* banner text */
+.banner-image .text-bg {
+    border: t;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 10px;
+}
+
+.banner-image .text-bg h1 {
+    color: #a80505;
+    font-family: Akira-Extended;
+    font-size: 120px;
+}
+
+.banner-image .text-bg h4 {
+    line-height: 5px;
+    padding-bottom: 100px;
+    color: black;
+}
