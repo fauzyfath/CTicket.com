@@ -8,6 +8,9 @@
 }
 
 /* main content */
+.containermain{
+    margin-top: 50px;
+}
 .p-3 img{
     width: 750px;
     height: 440px;
@@ -27,8 +30,9 @@
 
 /* footer */
 .copyright {
+    position:sticky;
     background-color: black;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 20px 0px;
 }
 .copyright p {
